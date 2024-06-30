@@ -1,0 +1,99 @@
+
+.hide {
+    visibility: hidden;
+  }
+  .show {
+    visibility: visible;
+  }
+  body {
+    background-color: darkcyan
+  }
+  .section1 {
+    height: 100vh;
+  }
+  #formContainer {
+    width: 700px;
+    height: 600px;
+    margin: 50px auto;
+    margin-top: 120px;
+    margin-left: 300px;
+  
+    position: fixed;
+    scroll-behavior: none;
+  }
+  #formContainer {
+    border-radius: 50px;
+    background: #000000;
+    box-shadow: 29px 29px 58px #707070, -29px -29px 58px rgb(21, 121, 168);
+  }
+  
+  #heading {
+    color: green;
+    position: fixed;
+    margin-left: 500px;
+    margin-top: 160px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h1,
+  h3 {
+    text-align: center;
+  }
+  h3,
+  h1 {
+    color: rgb(21, 121, 168);
+  }
+  
+  input {
+    margin-left: 1.5em;
+    padding: 5px;
+    font-size: 16px;
+    width: 20em;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+  }
+  label {
+    font-size: 20px;
+    color: rgb(17, 102, 141);
+  }
+  .display {
+    margin-left: 70px;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: red;
+  }
+  .submit {
+    padding: 7px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(21, 121, 168);
+    color: #ffffff;
+    margin-left: 280px;
+    cursor: pointer;
+  }
+  
+  .quizStart {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background: rgb(17, 102, 141);
+    box-shadow: 12px 12px 30px #5a5a5a, -12px -12px 30px rgb(21, 121, 168);
+    margin-left: 580px;
+    margin-top: 280px;
+    position: fixed;
+  }
+  
+  .quizStart {
+    border: none;
+    cursor: pointer;
+  }
+  

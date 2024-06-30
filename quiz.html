@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+
+
+<body onload="startQuiz()" id="startQuiz">
+
+    <h1>Quiz App</h1>
+
+    <div id="quizContainer">
+       
+        <div class="header">
+            <section>
+                <div>
+                    <span class="name">Name:</span>
+                    <span id="userName"></span>
+                </div>
+                <div>
+                    <span class="email">
+                        Email:
+                    </span>
+                    <span id="userEmail"></span>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <span class="Time">Timer:</span>
+                    <span class="Time" id="timer">00:00</span>
+                </div>
+            </section>
+        </div>
+
+        <div class="body">
+            <div>
+                <h3 id="htmlQues">
+                    </h1>
+            </div>
+            <div>
+                <ol id="htmlOptions">
+                    
+                    
+                </ol>
+            </div>
+
+        </div>
+
+         
+        <div class="footer">
+            <div id="counter">
+                <span id="currentCount" > 1 </span> / <span id="totalCount" ></span>
+            </div>
+
+            <div>
+                <button class="hide" id="nextQuesBtn"  onclick="nextQues()">NEXT QUESTION</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide resultcontainer" >
+        <div class="resultcon">
+
+            <h2 class="result">
+                 result 
+            </h2 >
+             
+            <div class="nun">
+
+                <h3 class="correct">
+                    correct Ans:
+                </h3>
+    
+                <p id="correctAns"></p>
+    
+                <h3 class="wrong">
+                    wrong Ans:
+                </h3>
+    
+                <p id="wrongAns"></p>
+                <a href="./index.html"> 
+
+                    <button class="Return">Return to login page?</button>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+<script src="quiz.js"></script>
+</html>

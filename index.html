@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 class="hide" id="heading">
+      Form Submitted<br /><i class="fa-regular fa-circle-check"></i>
+    </h1>
+    <div id="startContainer" class="hide">
+      <a href="./quiz.html">
+        <button class="quizStart">START QUIZ ?</button>
+      </a>
+    </div>
+    <section class="section1">
+      <div id="formContainer" class="show">
+        <div>
+          <br />
+          <h1>LOGIN</h1>
+          <h3>
+            "Fill this form correctly , otherwise you can't able to attend quiz!
+            "
+          </h3>
+          <br />
+          <div class="display">
+            <label for="name">Enter name :</label>
+            <input id="name" type="text" placeholder="Enter name..." />
+          </div>
+
+          <br />
+          <span class="hide" id="nameError">Name required</span>
+          <br />
+          <br />
+          <div class="display">
+            <label for="email">Enter email :</label>
+            <input type="text" id="email" placeholder="Enter email..." />
+          </div>
+          <br />
+          <span class="hide" id="emailError">Email required</span>
+          <br />
+          <br />
+          <div class="display">
+            <label for="roll no">Enter Roll.no:</label>
+            <input type="text" id="rollno" placeholder="Enter Roll.No..." />
+          </div>
+          <br />
+          <span class="hide" id="rollnoError">Roll no required </span>
+          <br />
+          <br />
+          <button class="submit" onclick="submitHandler()">submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
